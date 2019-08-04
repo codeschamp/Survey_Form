@@ -1,0 +1,102 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+    
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div id="body">
+    <p id="description">Tell me what you think of my coding :)</p>
+    
+    <form id="survey-form">
+      <label for="name" id="name-label">* Name: </label>
+       <input id="name" type="text" placeholder="Enter your name" required>
+      </br>
+      <label for="email" id="email-label">* Email: </label>
+       <input id="email" type="email" required placeholder="Enter your email">
+      </br>
+      <label for="number" id="number-label">* Years coding: </label>
+       <input id="number" type="number" min="0" max="70" required placeholder="#">
+      </br>
+      <label for="dropdown">Your current role:</label>
+      <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="senior">Senior Developer</option>
+        <option value="front-end">Front-End Developer</option>
+        <option value="back-end">Back-End Developer</option>
+        <option value="full-stack" selected>Full-Stack Developer</option>
+        <option value="other">Other</option>
+      </select>
+</br>
+</br>
+      <label>Please rate my coding:</label>
+      </br>
+        <input type="radio" name="rating" id="ex" value="Excellent">
+        <label for="ex">Excellent</label>
+</br>
+        <input type="radio" name="rating" id="abv" value="Excellent">
+        <label for="abv">Good</label>
+</br>
+        <input type="radio" name="rating" id="av" value="Excellent">
+        <label for="av">Average</label>
+</br>
+        <input type="radio" name="rating" id="bl" value="Excellent">
+        <label for="bl">Ok-ish</label>
+</br>
+        <input type="radio" name="rating" id="po" value="Excellent">
+        <label for="po">Lots to learn</label>
+</br>
+</br>
+      <label id="dropdown2">What do you like most about my coding?</label>
+</br>
+</br>
+      <select>
+        <option value="layout" selected>Layout/Wireframe</option>
+        <option value="cleaniness">Clean code</option>
+        <option value="design">Design/Colors</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">Javascript</option>
+      </select>
+</br>
+</br>
+      <label>What can I improve on?</label>
+</br>
+</br>
+        <input id="clean" type="checkbox" value="cleaniness">
+        <label for="clean">Code cleaniness</label>
+</br>
+        <input id="layout" type="checkbox" value="layout">
+        <label for="clean">Layout</label>
+</br>
+        <input id="design" type="checkbox" value="design">
+        <label for="clean">Design</label>
+</br>
+        <input id="html" type="checkbox" value="html">
+        <label for="clean">HTML</label>
+</br>
+        <input id="css" type="checkbox" value="css">
+        <label for="clean">CSS</label>
+</br>
+        <input id="javascript" type="checkbox" value="javascript">
+        <label for="clean">Javascript</label>
+</br>
+</br>
+        <label for="comments">Any Comments or Suggestions?</label>
+</br>
+        <textarea id="comments" rows="5" cols="50"></textarea>
+</br>
+        <input id="submit" type="submit"/>
+</br>
+</br>
+        <p>Thank you for your time!</p>
+
+    </form>
+    </div>
+  </body>
+
+</html>
